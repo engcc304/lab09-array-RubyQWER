@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test with number set 1",
+      "setup": "g++ -o a.out ./Lab/Lab09-Array.cpp",
+      "run": "./a.out",
+      "input": "6\r\n19\r\n18\r\n27\r\n15\r\n4\r\n2",
+      "output": "Index:  0  1  2  3  4  5\r\nArray:  # 19  #  #  #  2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test with number set 2",
+      "setup": "g++ -o a.out ./Lab/Lab09-Array.cpp",
+      "run": "./a.out",
+      "input": "5\r\n3\r\n9\r\n8\r\n7\r\n6",
+      "output": "Index:  0  1  2  3  4\r\nArray:  3  #  #  7  #",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
